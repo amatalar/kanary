@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="Content-Type">
+    <title>Document</title>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="index.js" type="module"></script>
+    <script src="kanarylayout.js" type="module" defer></script>
+</head>
+<body>
+    <p class="t">Hello</p>  
+    <p class="i"></p>
+    <p class="k"></p>
+    <div id="chatbot">
+        <h1>Chatbot</h1>
+        <form class="f">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <input type="submit" value="Submit">
+        </form>
+        
+    </div>
+    <div>
+        <form id="complainf">
+            <label for="complain">complain:</label>
+            <input type="text" id="complain" name="fname">
+            <input type="submit" value="Submit">
+        </form>
+        <div id ='dymdiv'></div>
+    </div>
+    </div>
+
+    <p id="diagnosis"></p>
+    <button id ='ddid'>Differntial diagnosis</button>
+    <ul id ='dd'>
+    </ul>
+    <button id="diagnosisbtn">pressdiagnose</button>
+    <div id="kanarylab">
+        <button  id ='button' type="button">kanary</button>
+
+    </div>
+</body>
+</html>
