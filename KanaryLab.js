@@ -727,7 +727,7 @@ export class SymptomAnalysis {
 
     }
      ChestPain (){ 
-        let symptom ='chestPain' 
+        let symptom ='chest pain' 
         //Query.generate(symptom)
         this.Operator(symptom)
 
